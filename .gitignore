@@ -1,6 +1,8 @@
 *.pyc
 *~
 .DS_Store
+.vscode
+*.vscode
 /djsite/__pycache__
 *xcuserdata*
 profile
