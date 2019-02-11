@@ -11,3 +11,6 @@ docker run -d -p 11111:22222 --name mysite --mount type=bind,source=$(pwd),targe
 
 ### 预览效果
 浏览器 http://localhost:11111
+
+### log输出
+docker logs -f mysite
